@@ -1,0 +1,73 @@
+.NavCon {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: linear-gradient(to right, rgba(2,0,36,1), rgba(9,9,121,1));
+    padding: 0 2rem;
+}
+.logoCon {
+    display: flex;
+    flex-flow: row wrap;
+}
+.Navimg{
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+}
+.titleCon {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    font-size: 1.75rem;
+    font-weight: 600;
+    background: linear-gradient(to right, darkred, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.para {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: white;
+}
+
+.btnActions {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+@media (max-width: 769px) {
+    .img {
+        width: 5rem;
+        height: 5rem;
+    }
+    .header {
+        font-size: 1.15rem;
+    }
+    .para {
+        font-size: 1.15rem;
+    }
+    .btnActions {
+        gap: 0.5rem;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+}

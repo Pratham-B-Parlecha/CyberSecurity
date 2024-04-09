@@ -1,0 +1,58 @@
+.predCon {
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/dashboard-bg.jpg');
+    background-size: cover;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.header {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+.btnaction {
+    /* background-color: aqua; */
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.btn {
+    padding: 0.5rem 1.5rem;
+    background-color: red;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.stateCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 2rem;
+}
+
+.DropCon {
+    height: 100%;
+    margin-top: 2.5rem;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+
+}

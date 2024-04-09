@@ -1,0 +1,13 @@
+.dasCon {
+    background: url('../assets/dashboard-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.cardCon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    padding-top: 3rem;
+}
