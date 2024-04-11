@@ -16,6 +16,9 @@ export default function Prediction() {
           <Dropdown />
           <Dropdown />
           <Dropdown />
+        </div>
+        <div className={classes.preDropCon}>
+          <Dropdown />
           <Dropdown />
           <Dropdown />
         </div>

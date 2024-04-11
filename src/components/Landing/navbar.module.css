@@ -27,11 +27,13 @@
     background: linear-gradient(to right, darkred, red);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: "Inter", sans-serif;
 }
 .para {
     font-size: 1.75rem;
     font-weight: 500;
     color: white;
+    font-family: "Inter", sans-serif;
 }
 
 .btnActions {
@@ -51,6 +53,7 @@
     cursor: pointer;
     border: none;
     outline: none;
+    font-family: "Inter", sans-serif;
 }
 @media (max-width: 769px) {
     .img {
