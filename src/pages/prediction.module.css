@@ -15,7 +15,8 @@
     font-size: 2rem;
     color: white;
     font-weight: 600;
-    font-family: "Inter", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
 }
 .wrap {
     padding-top: 5rem;

@@ -12,15 +12,15 @@ export default function Prediction() {
       </div>
       <div className={classes.wrap}>
         <div className={classes.preDropCon}>
-          <Dropdown />
-          <Dropdown />
-          <Dropdown />
-          <Dropdown />
+          <Dropdown placeholder="Select the District" />
+          <Dropdown placeholder="select the unitName" />
+          <Dropdown placeholder="select the year" />
+          <Dropdown placeholder="select the month" />
         </div>
         <div className={classes.preDropCon}>
-          <Dropdown />
-          <Dropdown />
-          <Dropdown />
+          <Dropdown placeholder="select the CrimeGroup_Name" />
+          <Dropdown placeholder="select the victim count" />
+          <Dropdown placeholder="select the accused count" />
         </div>
         <button className={classes.btn}>Predict</button>
       </div>

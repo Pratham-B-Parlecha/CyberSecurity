@@ -28,8 +28,8 @@ export default function Forecasting() {
       {selected === "state" && (
         <div className={classes.stateCon}>
           <div className={classes.DropCon}>
-            <Dropdown />
-            <Dropdown />
+            <Dropdown placeholder="select the district" />
+            <Dropdown placeholder="select the duration" />
           </div>
           <button className={classes.btn}>Predict</button>
         </div>
@@ -37,9 +37,9 @@ export default function Forecasting() {
       {selected === "district" && (
         <div className={classes.stateCon}>
           <div className={classes.DropCon}>
-            <Dropdown />
-            <Dropdown />
-            <Dropdown />
+            <Dropdown placeholder="Select the district" />
+            <Dropdown placeholder="select the duration" />
+            <Dropdown placeholder="select the crime type" />
           </div>
           <button className={classes.btn}>Predict</button>
         </div>

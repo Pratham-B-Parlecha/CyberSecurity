@@ -7,6 +7,7 @@ const SearchableDropdown = ({
   id,
   selectedVal,
   handleChange,
+  placeholder
 }) => {
   const [query, setQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
@@ -61,7 +62,7 @@ const SearchableDropdown = ({
             type="text"
             value={getDisplayValue()}
             name="searchTerm"
-            placeholder="Select an option"
+            placeholder={placeholder}
             onChange={(e) => {
               setQuery(e.target.value);
               handleChange(null);
